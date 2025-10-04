@@ -1,0 +1,35 @@
+<html>
+
+<head>
+    <title>Home</title>
+</head>
+
+<body>
+    <p id="i1"></p>
+    <p id="i2"></p>
+    <p id="i3"></p>
+    <p id="i4"></p>
+    <p id="i5"></p>
+    <p id="i6"></p>
+
+    <script>
+        var employee = {
+            name1: 'Priyank',
+            age1: 30,
+            gen1: 'male',
+            name2: 'Damian',
+            age2: 13,
+            gen2: 'male'
+        }
+        document.getElementById("i1").innerHTML = employee.name1;
+        document.getElementById("i2").innerHTML = employee['age1'];
+        document.getElementById("i3").innerHTML = employee.gen1;
+
+        document.getElementById("i4").innerHTML = employee.name2;
+        document.getElementById("i5").innerHTML = employee['age2'];
+        document.getElementById("i6").innerHTML = employee.gen2;
+    </script>
+
+</body>
+
+</html>
